@@ -17,6 +17,7 @@ export default defineConfig({
                 { src: "./CHANGELOG.md", dest: "./" },
                 { src: "./plugin.json", dest: "./" },
                 { src: "./icon.png", dest: "./" },
+                { src: "./donate.jpg", dest: "./" },
                 { src: "./i18n/**", dest: "./i18n" },
             ],
         }),

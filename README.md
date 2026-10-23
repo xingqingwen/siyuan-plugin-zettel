@@ -91,6 +91,12 @@ WHERE ial LIKE '%custom-weread-book="23444346"%'
 - 「全量重建」会删除并重建所有微信读书文档，**已有块引用会失效**，慎用
 - 微信读书接口仅能导出划线与想法；书签只有数量（官方限制）
 
+## 赞赏
+
+如果这个插件对你的卡片笔记有帮助，欢迎请作者喝杯咖啡：
+
+<p align="center"><img src="donate.jpg" width="280" alt="微信赞赏码"></p>
+
 ## License
 
 MIT
