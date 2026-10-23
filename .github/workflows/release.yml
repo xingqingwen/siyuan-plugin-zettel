@@ -22,9 +22,14 @@ jobs:
           npm install --no-audit --no-fund
           npm run build
 
+      - name: Package
+        run: |
+          cp preview.png dev/preview.png
+          cd dev && zip -r ../package.zip . && cd ..
+
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dev/*
+            package.zip
           generate_release_notes: true
