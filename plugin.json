@@ -1,0 +1,33 @@
+{
+  "name": "siyuan-plugin-zettel",
+  "author": "xingqingwen",
+  "url": "https://github.com/xingqingwen/siyuan-plugin-zettel",
+  "version": "0.9.9",
+  "minAppVersion": "3.0.16",
+  "backends": [
+    "all"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window",
+    "browser-desktop"
+  ],
+  "displayName": {
+    "en_US": "Zettel Card Box",
+    "zh_CN": "卡片盒"
+  },
+  "description": {
+    "en_US": "A Luhmann-style Zettelkasten for SiYuan. Every note is one judgment of your own, anchored to its source, linked to the cards it argues with, and flagged when it is still an island. WeRead highlights and thoughts plug in as a material library: sync them in, turn the few worth keeping into cards, search the rest.",
+    "zh_CN": "卢曼式卡片笔记：一张卡就是一句你自己的判断。建卡时自动锚定来源、推荐可以连上的旧卡、标出还没接进网络的孤岛。微信读书的划线与想法作为素材库接入——同步进来，挑值得成卡的写成卡，其余留着随时检索。"
+  },
+  "keywords": [
+    "卡片笔记",
+    "卢曼",
+    "zettelkasten",
+    "双向链接",
+    "知识管理",
+    "微信读书"
+  ],
+  "icon": "icon.png",
+  "funding": {}
+}
